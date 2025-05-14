@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(./assets/mainbackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px 120px;
+}
+
+header h1 {
+    font-size: 32pt;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.nav-links {
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 35px;
+    color: #FFFFFF;
+}
+
+.nav-links .call-us {
+    padding: 7px 35px;
+    font-size: 15px;
+    margin-left: 40px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    align-items: center;
+    cursor: pointer;
+}
+
+section .main-content {
+    text-align: center;
+    align-items: center;
+    margin-top: 9%;
+}
+
+section .nature-content .content h2 {
+    font-size: 64px;
+    margin-top: 30px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+section .nature-content .content p {
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-top: 23px;
+    font-weight: 400;
+}
+
+section .nature-content .button-book button {
+    padding: 11px 50px;
+    margin-top: 30px;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+section .nature-content .button-book button:first-child {
+    background-color: #285A43;
+    font-weight: 400;
+}
+
+section .nature-content .button-book button:last-child {
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    padding: 11px 35px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main-content {
+    height: 80vh;
+}
+
+.second-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.second-content .content .help-content {
+    font-size: 36px;
+    color: #285A43;
+    line-height: 140%;
+    letter-spacing: 4%;
+    align-items: center;
+}
+
+.second-content .content .long-content {
+    font-size: 18px;
+    line-height: 150%;
+    align-items: center;
+    color: #121212;
+}
+
+.grid-content {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+}
+
+.grid-content .grid {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px 50px;
+    border-radius: 20px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+        -15px -15px 30px #ffffff;
+}
+
+.grid-content .green {
+    background-color: #2f7255;
+}
+
+.grid-content .green>.qwxdqw {
+    color: #FFFFFF;
+}
+
+.grid-content .green>.qdcqw {
+    color: #FFFFFF;
+}
+
+.grid-content .grid h5 {
+    font-size: 23px;
+    text-align: center;
+    color: #121212;
+}
+
+.grid-content .grid p {
+    text-align: left;
+    margin-top: 20px;
+    font: 16px;
+    color: #121212;
+}
+
+section .nature-content .button-book button:hover,
+.nav-links .call-us:hover,
+.grid-content .grid:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+}
+
+.content-holder .offer-content {
+    text-align: center;
+    margin-top: 14vh;
+}
+
+.content-holder .offer-content .content h5 {
+    font-size: 2.25rem;
+    letter-spacing: 2px;
+    line-height: 150%;
+    color: #285A43;
+    margin-bottom: 5vh;
+}
+
+.content-holder .grid-plantito {
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    gap: 50px;
+    align-items: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-holder .grid-plantito img {
+    width: 250px;
+    height: 270px;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.grid-plant {
+    background-color: rgba(85, 84, 84, 0.1);
+    box-shadow: 2px 2px 15px 2px #afa7a7;
+    width: 15vw;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.grid-plant>h5 {
+    font-size: 16px;
+    margin-left: 0.5vw;
+}
+
+.grid-plant>p {
+    color: #121212a1;
+    margin-left: 0.5vw;
+}
+
+.grid-plant span {
+    color: #121212;
+    margin-left: 0.1vw;
+}
+
+.grid-plant .buy-now>button {
+    padding: 5px 20px;
+    margin-left: 0.5vw;
+    margin-top: 1vh;
+    border-radius: 5px;
+    border: 2px solid #337A5B;
+    color: #337A5B;
+    cursor: pointer;
+}
+
+.section-warpper {
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 50px;
+}
+
+.content-wrapper .image-wrapper img {
+    width: 720px;
+    height: 758px;
+    border-radius: 20px;
+}
+
+.text-content-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+}
+
+.text-content-wrapper .content-container h5 {
+    font-size: 20px;
+    margin-bottom: 0.8vh;
+}
+
+.text-content-wrapper .content-container p {
+    font-size: 16px;
+    color: #121212;
+}
+
+.content-container {
+    border: 1px solid rgb(206, 206, 209);
+    padding: 15px 25px;
+    border-radius: 10px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+        -15px -15px 30px #ffffff;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: all 0.2s ease;
+        box-shadow: 0 5px 10px rgb(56, 54, 54);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        padding: 5px 5%;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    header h1{
+        font-size: 23px;
+        padding: 0 5%;
+    }
+
+    nav a{
+        display: none;
+        padding: 0 5%;
+    }
+
+    nav i{
+        text-align: center;
+        padding: 0 5%;
+    }
+
+    .nav-links .call-us{
+        display: none;
+        padding: 0 5%;
+    }
+
+    section .nature-content .content h2{
+        font-size: 3rem;
+        text-align: center;
+        align-items: center;
+        margin-top: 50%;
+        padding: 0 5%;
+    }
+
+    section .nature-content .content p{
+        font-size: 13px;
+        padding: 0 5%;
+        align-content: center;
+        text-align: center;
+    }
+
+    section .nature-content .button-book button,
+    section .nature-content .button-book button:last-child{
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .second-content{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin-top: -30px;
+        padding: 0 5%;
+    }
+
+    .second-content .content .help-content {
+        text-align: center;
+        align-items: center;
+        font-size: 1.3rem;
+        padding: 0 5%;
+    }
+
+    .second-content .content .long-content{
+        text-align: center;
+        align-content: center;
+        text-align: left;
+        padding: 0 5%;
+    }
+}
